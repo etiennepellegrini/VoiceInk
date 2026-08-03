@@ -13,7 +13,7 @@ DMG_ASSET_DIR="$REPO_ROOT/release/dmg"
 DMG_LAYOUT="$DMG_ASSET_DIR/layout.conf"
 DMG_BACKGROUND="$DMG_ASSET_DIR/background.tiff"
 DMG_VOLUME_ICON="$DMG_ASSET_DIR/volume-icon.icns"
-WHISPER_FRAMEWORK="${VOICEINK_WHISPER_FRAMEWORK:-$HOME/VoiceInk-Dependencies/whisper.cpp/build-apple/whisper.xcframework}"
+WHISPER_FRAMEWORK="${VOICEINK_WHISPER_FRAMEWORK:-$REPO_ROOT/../deps/whisper.cpp/build-apple/whisper.xcframework}"
 
 DEVELOPER_IDENTITY="${VOICEINK_DEVELOPER_IDENTITY:-Developer ID Application: Prakash Joshi (V6J6A3VWY2)}"
 NOTARY_PROFILE="${VOICEINK_NOTARY_PROFILE:-VoiceInk-Notarization}"
