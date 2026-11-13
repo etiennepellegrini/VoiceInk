@@ -134,7 +134,8 @@ release-setup:
 # Cleanup
 clean:
 	@echo "Cleaning build artifacts..."
-	@rm -rf $(DEPS_DIR)
+	#@rm -rf $(DEPS_DIR)
+	@rm -rf .local-build/
 	@echo "Clean complete"
 
 # Help
